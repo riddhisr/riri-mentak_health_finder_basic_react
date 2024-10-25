@@ -1,0 +1,68 @@
+/* Background and container styling */
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #E6E6FA; /* Light Lavender Purple */
+}
+
+/* Plum colored box for the form with fixed height */
+.signup-box {
+    background-color: #DDA0DD; /* Plum */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 600px; /* Fixed height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; /* Spread elements to fit */
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-grow: 1;
+    
+}
+
+label {
+    margin-bottom: 0px;
+    font-size: 16px;
+    color: #4B0082; /* Indigo for text */
+}
+
+/* Styling for input fields */
+input {
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    background-color: #FFB6C1; /* Light Pink */
+}
+
+/* Signup button styling */
+.signup-btn {
+    background-color: #4B0082; /* Indigo */
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.signup-btn:hover {
+    background-color: #8A2BE2; /* BlueViolet on hover */
+}
+h2 {
+    color: white;
+    margin-bottom: 15px;
+}
+

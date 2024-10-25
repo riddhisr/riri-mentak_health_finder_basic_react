@@ -1,0 +1,23 @@
+.confirmation-page {
+  background: linear-gradient(to bottom right, #A0E7E5, #B9FBC0); /* Pastel green-blue gradient */
+  padding: 40px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.confirmation-page h2 {
+  color: #4CAF50; /* Darker green for the title */
+}
+
+.confirmation-page ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.confirmation-page li {
+  margin: 10px 0; /* Space between list items */
+  color: #333; /* Dark gray for text */
+  font-size: 16px; /* Font size for list items */
+}

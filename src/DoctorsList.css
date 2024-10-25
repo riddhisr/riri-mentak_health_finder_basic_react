@@ -1,0 +1,61 @@
+/* Main container styling */
+.doctors-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(to bottom, #FF7E5F, #feb47b); /* Light sunset gradient */
+  min-height: 100vh; /* Ensure full height for the background */
+}
+
+/* Title styling */
+.title {
+  font-size: 28px;
+  color: #4B0082; /* Indigo for the title */
+  margin-bottom: 20px;
+}
+
+/* Grid for doctors */
+.doctors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid */
+  gap: 20px;
+  width: 100%;
+}
+
+/* Card styling for each doctor */
+.doctor-card {
+  background: linear-gradient(to right, #A0DABF, #B4E3E0); /* Light green-blue gradient */
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s; /* Animation for hover effect */
+}
+
+/* Hover effect for doctor cards */
+.doctor-card:hover {
+  transform: scale(1.03); /* Slightly enlarge on hover */
+}
+
+/* Doctor photo styling */
+.doctor-photo {
+  width: 100px; /* Set photo width */
+  height: 100px; /* Set photo height */
+  border-radius: 50%; /* Circular photo */
+  margin-bottom: 10px;
+}
+
+/* Doctor information styling */
+.doctor-info {
+  color: #333; /* Dark Gray */
+}
+
+/* Star rating styling */
+.star-rating {
+  color: #FFD700; /* Gold color for stars */
+}
+
+
+
+  

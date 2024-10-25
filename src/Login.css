@@ -1,0 +1,70 @@
+/* Background and container styling */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #FFC04D; /* Light Orange */
+}
+
+/* Light brown colored box for the login form with fixed height */
+.login-box {
+    background-color: #BF8A40; /* Light Brown */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 400px; /* Adjusted height for login form */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; /* Spread elements to fit */
+}
+
+/* Title styling */
+.title {
+    font-size: 22px; /* Matching the title size with signup page */
+    color: #000; /* Black */
+    margin-bottom: 10px;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-grow: 1;
+    justify-content: space-evenly; /* Evenly space attributes */
+}
+
+label {
+    margin-bottom: 3px; /* Reduced margin between labels and inputs */
+    font-size: 14px; /* Smaller label font size */
+    color: #4B0082; /* Indigo for text */
+}
+
+/* Styling for input fields */
+input {
+    padding: 6px; /* Smaller padding for input fields */
+    margin-bottom: 8px; /* Reduced margin between inputs */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 12px; /* Smaller input text size */
+}
+
+/* Login button styling */
+.login-btn {
+    background-color: #4B0082; /* Indigo */
+    color: white;
+    padding: 6px; /* Reduced button padding */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px; /* Slightly smaller font for the button */
+    transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #8A2BE2; /* BlueViolet on hover */
+}
+
